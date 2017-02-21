@@ -13,7 +13,7 @@ This COMP uses extensions to control the mouse position and left, middle, and ri
 ###Custom Parameters
 This is the intended usage of the extentions.
 
-The custom parameters are used to set the mouse position and trigger the mouse button events.
+The custom parameters are used to set the mouse position and trigger the mouse button events. Both the X and Y values are normalized 0 to 1.
 
 The mouse position can be set using the ```X Position``` and ```Y Position``` sliders. Left, Right, and Middle click call the LC(), MC(), and RC() extensions.
 
@@ -22,6 +22,8 @@ The ```Left Click```, ```Middle Click```, and ```Right Click``` buttons are puls
 If there is a need to click-and-drag, one would use the ```Left Toggle```, change the ```X Position``` and ```Y Position```, then disengage the ```Left Toggle``` to release the mouse button.
 
 ###Methods:
+These can be used for further scripting needs.
+
 - MP(x, y)
   - sets the mouse position
   - requires values within the range of 0 to 1
