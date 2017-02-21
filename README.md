@@ -47,13 +47,13 @@ These can be used for further scripting needs.
   - releases the right mouse button
   
 - LC()
-  - clicks the left mouse button, so it calls LeftDown() then LeftUp()
+  - clicks the left mouse button, which calls LeftDown() then LeftUp()
 
 - MC()
-  - clicks the middle mouse button, so it calls MiddleDown() then MiddleUp()
+  - clicks the middle mouse button, which calls MiddleDown() then MiddleUp()
   
 - RC()
-  - clicks the right mouse button, so it calls RightDown() then RightUp()
+  - clicks the right mouse button, which calls RightDown() then RightUp()
 
 ##Troubleshooting:
 If you find an issue, submit a pull request or post an issue on this repo. 
