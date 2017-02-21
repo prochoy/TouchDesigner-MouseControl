@@ -10,6 +10,17 @@ This tool requires 'Custom Parameters' functionality within TouchDesigner (Build
 ##Usage
 This COMP uses extensions to control the mouse position and left, middle, and right buttons. It allows the control of the mouse even when the TouchDesigner window is not in focus.
 
+###Custom Parameters
+This is the preffered usage of the extentions.
+
+The custom parameters are used to set the mouse position and trigger the mouse button events.
+
+The mouse position can be set using the ```X Position``` and ```Y Position``` sliders. Left, Right, and Middle click call the LC(), MC(), and RC() extensions.
+
+The ```Left Click```, ```Middle Click```, and ```Right Click``` buttons are pulses that trigger a single mouse click.
+
+If there is a need to click-and-drag, one would use the ```Left Toggle```, change the ```X Position``` and ```Y Position```, then disengage the ```Left Toggle``` to release the mouse button.
+
 ###Methods:
 - MP(x, y)
   - sets the mouse position
@@ -41,13 +52,6 @@ This COMP uses extensions to control the mouse position and left, middle, and ri
   
 - RC()
   - clicks the right mouse button, so it calls RightDown() then RightUp()
-  
-###Custom Parameters
-The custom parameters can also be used to set the mouse position and trigger the mouse button events.
-
-The mouse position can be set using the ```X Position``` and ```Y Position``` sliders. Left, Right, and Middle click call the LC(), MC(), and RC() extensions.
-
-If there is a need to click-and-drag, one would use the ```Left Toggle```, change the ```X Position``` and ```Y Position```, then disengage the ```Left Toggle``` to release the mouse button.
 
 ##Troubleshooting:
 If you find an issue, submit a pull request or post an issue on this repo. 
