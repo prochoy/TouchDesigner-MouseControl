@@ -49,7 +49,7 @@ This COMP uses extensions to control the mouse position and left, middle, and ri
 ###Custom Parameters
 The custom parameters can also be used to set the mouse position and trigger the mouse button events.
 The mouse position can be set using the ```X Position``` and ```Y Position``` sliders. Left, Right, and Middle click call the LC(), MC(), and RC() extensions.
-If there is a need to click-and-drag, one would use the ```Left Toggle```, change the `X Position``` and ```Y Position```, then disengage the ```Left Toggle``` to release the mouse button.
+If there is a need to click-and-drag, one would use the ```Left Toggle```, change the ```X Position``` and ```Y Position```, then disengage the ```Left Toggle``` to release the mouse button.
 
 ##Troubleshooting:
 If you find an issue, submit a pull request or post an issue on this repo. 
