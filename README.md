@@ -5,11 +5,7 @@ TouchDesigner 088 component to control mouse actions using Python ctypes
 This tool requires 'Custom Parameters' functionality within TouchDesigner (Build 45000 and above). It was created, and is stable, in 64-bit build 62070.
 
 ##Installation
-1. Move the ```mouseOut``` folder into your project root folder.
-2. Add the ```mouseOut.tox``` component into your project.
-
-##Pre-requisite Python files
-All pre-requisite Python libraries are included as a part of the nVoid Twitter Tools folder package. 
+1. Add the ```mouseOut.tox``` component into your project.
 
 ##Usage
 This COMP uses extensions to control the mouse position and left, middle, and right buttons. It allows the control of the mouse even when the Touchdesigner window is not in focus.
