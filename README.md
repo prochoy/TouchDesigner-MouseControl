@@ -11,7 +11,7 @@ This tool requires 'Custom Parameters' functionality within TouchDesigner (Build
 This COMP uses extensions to control the mouse position and left, middle, and right buttons. It allows the control of the mouse even when the TouchDesigner window is not in focus.
 
 ###Custom Parameters
-This is the preffered usage of the extentions.
+This is the intended usage of the extentions.
 
 The custom parameters are used to set the mouse position and trigger the mouse button events.
 
