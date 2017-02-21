@@ -37,10 +37,10 @@ This COMP uses extensions to control the mouse position and left, middle, and ri
   - clicks the left mouse button, so it calls LeftDown() then LeftUp()
 
 - MC()
-  - clicks the middle mouse button
+  - clicks the middle mouse button, so it calls MiddleDown() then MiddleUp()
   
 - RC()
-  - clicks the right mouse button
+  - clicks the right mouse button, so it calls RightDown() then RightUp()
   
 ###Custom Parameters
 The custom parameters can also be used to set the mouse position and trigger the mouse button events.
