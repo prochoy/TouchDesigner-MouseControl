@@ -8,7 +8,7 @@ This tool requires 'Custom Parameters' functionality within TouchDesigner (Build
 1. Add the ```mouseOut.tox``` component into your project.
 
 ##Usage
-This COMP uses extensions to control the mouse position and left, middle, and right buttons. It allows the control of the mouse even when the Touchdesigner window is not in focus.
+This COMP uses extensions to control the mouse position and left, middle, and right buttons. It allows the control of the mouse even when the TouchDesigner window is not in focus.
 
 ###Methods:
 - MP(x, y)
